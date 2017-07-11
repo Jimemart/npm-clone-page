@@ -1,0 +1,214 @@
+/*----------Barra de navegacion-------*/
+nav{
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding:15px 0px;
+}
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+.top-links{
+  float: right;
+  display: inline-block;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li{
+  display: inline-block;
+  list-style-type: none;
+  margin: 0 10px;
+}
+.top-left{
+  width: 30%;
+  margin: 0 0 0 10px;
+}
+/*------------Header-----------*/
+
+#header{
+  padding: 10px 30px;
+  background-image: url("images/city-scape.svg");
+  background-position: 0,0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 100px;
+}
+
+.searchbar{
+  width: 78%;
+  padding: 15px 10px;
+  margin-top: 0;
+  margin-left: 20px;
+  background-color: rgb(31, 82, 111);
+  border: 1px solid rgb(135, 145, 156);
+}
+.buscar{
+  padding: 8.5px 4px;
+  color: rgb(135, 145, 156);
+}
+.boton{
+  background-color: rgb(31, 82, 111);
+  border: 1px solid rgb(135, 145, 156);
+  margin-right: 10px;
+  cursor: pointer;
+}
+.sesion{
+  margin: 15px 5px;
+}
+.log{
+  text-decoration: none;
+  color: rgb(135, 145, 156);
+}
+.log:hover{
+  color: white;
+}
+
+.text-content{
+  width: 50%;
+  padding-top: 30px;
+}
+.btn-1{
+    background: rgb(240, 146, 51);
+}
+.btn-1:hover{
+  animation: naranoscuro 1s 1 alternate forwards;
+}
+/*-------------Collaboration------------*/
+#collaboration{
+  background: rgb(39, 53, 71);
+  padding: 100px 0;
+}
+.collaboration-text{
+  float: right;
+  width: 45%;
+}
+.li-element{
+  margin-bottom: 20px;
+}
+.btn-2{
+  background-color: rgb(203, 56, 55);
+}
+.btn-2:hover{
+  animation: rojooscuro 1s 1 alternate forwards;
+}
+.learn{
+  text-decoration: none;
+  font-weight: bold;
+}
+.learn:hover{
+  text-decoration: underline;
+}
+/*------------What is npm-------------*/
+#whatis{
+  background-image: url("images/forklift.svg");
+  background-position: 0,0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 500px;
+}
+.position-abs{
+  position: absolute;
+  width: 25%;
+  left: 20%;
+  top: 20%;
+}
+.btn-3{
+  background: rgb(49, 68, 88);
+}
+.btn-3:hover{
+  animation: azuloscuro 1s 1 alternate forwards;
+}
+/*------------What can you make---------*/
+.iconos{
+  padding: 15px 0;
+}
+.blocks{
+  padding-top: 40px;
+}
+.heading{
+  color: rgb(83, 88, 98);
+}
+.grey{
+  color: rgb(135, 145, 156);
+}
+.red{
+  text-decoration: none;
+  color: rgb(208, 74, 73);
+}
+.red:hover{
+  text-decoration: underline;
+}
+/*---------Clases utiles--------*/
+.fix{
+  clear: both;
+}
+body{
+  font-size: 16px;
+  font-family: 'Open Sans';
+  line-height: 21px;
+}
+h1{
+  font-weight: 300;
+  font-size: 45px;
+}
+h2{
+  font-weight: 100 !important;
+  font-size: 36px;
+  line-height: 50px;
+  padding: 15px 0 0 0;
+  margin: 0;
+}
+.btn{
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 25px;
+  display: inline-block;
+  margin-top: 10px;
+}
+.align-center{
+  text-align: center;
+}
+.centered{
+  width: 1200px;
+  margin: 0 auto;
+}
+.col-3{
+  width: 30%;
+  float: left;
+}
+.col-middle{
+  margin: 0 5%;
+}
+.white{
+  color: white;
+}
+.left{
+  float: left;
+}
+/*----------------KEYFRAMES------------*/
+@keyframes azuloscuro {
+  0%{
+    background: rgb(49, 68, 88);
+  }
+  100%{
+    background: #253544;
+  }
+}
+@keyframes rojooscuro {
+  0%{
+    background: rgb(203, 56, 55);
+  }
+  100%{
+    background: #ac2e2d;
+  }
+}
+@keyframes naranoscuro {
+  0%{
+    background: rgb(240, 146, 51);
+  }
+  100%{
+    background: #e97e11;
+  }
+}
